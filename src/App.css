@@ -1,0 +1,51 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito:wght@300;400;600;700;800;900&family=Russo+One&family=Spartan:wght@700;800;900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/*
+ {
+  outline: 2px solid red;
+} 
+*/
+
+body,
+.dark {
+  background-color: #ebebeb;
+  color: #4c4f65;
+}
+
+body {
+  background-color: #1c1d25;
+  font-family: "Nunito";
+  color: white;
+}
+
+.background-color-of-website {
+  background-image: repeating-linear-gradient(
+      to right,
+      #1c1d25 0 1px,
+      transparent 2px 200px
+    ),
+    repeating-linear-gradient(to bottom, #1c1d25 0 1px, transparent 2px 200px),
+    radial-gradient(at 50% 50%, #1c1d25, #1d1b34);
+  font-family: "Nunito";
+  color: white;
+}
+
+#arrowSvg {
+  text-indent: 0;
+  text-transform: none;
+  direction: ltr;
+  block-progression: tb;
+  baseline-shift: baseline;
+  color: #fff;
+  enable-background: accumulate;
+}
