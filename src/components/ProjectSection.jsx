@@ -1,8 +1,18 @@
 import React from "react";
+import RealEstateScreenshot from "../assets/RealEstate_Screenshot.png";
+import Code_Live_Screenshot from "../assets/Code_Live_Screenshot.png";
+import NewsScraperScreenshot from "../assets/NewsScraperScreenshot.png";
+import Pokemon_Pokedex_Screenshot from "../assets/Pokemon_Pokedex_Screenshot.png";
+import WeatherAppScreenshot from "../assets/WeatherAppScreenshot.png";
+import Portfolio_Screenshot_Dark from "../assets/Portfolio_Screenshot_Dark.png";
+import Portfolio_Screenshot_Light from "../assets/Portfolio_Screenshot_Light.png";
 
 const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
   return (
-    <section ref={ref} className="max-w-screen w-[80%] mx-auto px-4 relative">
+    <section
+      ref={ref}
+      className="max-w-screen w-[80%] max-[820px]:min-w-[95%] mx-auto px-4 relative"
+    >
       <h2 className="max-[475px]:text-[30px] text-[40px] px-4 py-2 w-max mx-auto text-center text-[#1788ae] border-[#1788ae] border-b-2 font-bold ">
         LATEST WORKS
       </h2>
@@ -33,7 +43,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
               </svg>
             </span>
             <img
-              src="src/assets/Code_Live_Screenshot.png"
+              src={Code_Live_Screenshot}
               className="drop-shadow-[0px_0px_50px_#fc815c80] dark:drop-shadow-[0px_0px_40px_#fc815c4d] rounded-[45px] border-4 border-[#fc815c] max-[475px]:max-w-[300px] max-[820px]:max-w-[400px] max-[950px]:max-w-[300px] max-w-[350px]  mr-auto relative"
               alt=""
             />
@@ -144,7 +154,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
               </svg>
             </span>
             <img
-              src="src/assets/RealEstate_Screenshot.png"
+              src={RealEstateScreenshot}
               className="drop-shadow-[0px_0px_50px_#66339980] dark:drop-shadow-[0px_0px_40px_#6633994d] rounded-[45px] border-4 border-[#663399] max-[475px]:max-w-[300px] max-[820px]:max-w-[400px] max-[950px]:max-w-[300px] max-w-[350px] relative"
               alt=""
             />
@@ -178,11 +188,11 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
               </svg>
             </span>
             <img
-              src={`src/assets/${
+              src={
                 !darkMode
-                  ? "Portfolio_Screenshot_Light.png"
-                  : "Portfolio_Screenshot_Dark.png"
-              }`}
+                  ? Portfolio_Screenshot_Light
+                  : Portfolio_Screenshot_Dark
+              }
               className="drop-shadow-[0px_0px_50px_#4bb1a380] dark:drop-shadow-[0px_0px_40px_#4bb1a34d] rounded-[45px] border-4 border-[#4bb1a3] max-[475px]:max-w-[300px] max-[820px]:max-w-[400px] max-[950px]:max-w-[300px] max-w-[350px]  mr-auto relative"
               alt=""
             />
@@ -284,7 +294,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
               </svg>
             </span>
             <img
-              src="src/assets/NewsScraperScreenshot.png"
+              src={NewsScraperScreenshot}
               className="drop-shadow-[0px_0px_50px_#2694d480] dark:drop-shadow-[0px_0px_50px_#2694d44d] rounded-[45px] border-4 border-[#2694d4] max-[475px]:max-w-[300px] max-[820px]:max-w-[400px] max-[950px]:max-w-[300px] max-w-[350px] relative"
               alt=""
             />
@@ -318,7 +328,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
               </svg>
             </span>
             <img
-              src="src/assets/Pokemon_Pokedex_Screenshot.png"
+              src={Pokemon_Pokedex_Screenshot}
               className="drop-shadow-[0px_0px_50px_#fc815c80] dark:drop-shadow-[0px_0px_40px_#fc815c4d] rounded-[45px] border-4 border-[#fc815c] max-[475px]:max-w-[300px] max-[820px]:max-w-[400px] max-[950px]:max-w-[300px] max-w-[350px]  mr-auto relative"
               alt=""
             />
@@ -402,7 +412,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
               </svg>
             </span>
             <img
-              src="src/assets/WeatherAppScreenshot.png"
+              src={WeatherAppScreenshot}
               className="drop-shadow-[0px_0px_50px_#7ae71480] dark:drop-shadow-[0px_0px_40px_#7ae714b3] rounded-[45px] border-4 border-[#7ae714] max-[475px]:max-w-[300px] max-[820px]:max-w-[400px] max-[950px]:max-w-[300px] max-w-[350px] relative"
               alt=""
             />
