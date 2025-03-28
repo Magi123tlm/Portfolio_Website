@@ -21,7 +21,10 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
         <div className="hidden min-[820px]:block h-[1px] right-1/2 left-1/4 bg-[#1788ae] absolute top-1/2 "></div>
         {/* Circle at end of line */}
         <div className="hidden min-[820px]:block background-color-of-website w-4 h-4 rounded-full border-[3px] bg-inherit z-10 border-[#fc815c] absolute right-0 left-1/2 -translate-x-1/2 cursor-pointer hover:scale-120 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-200"></div>
-        <a href="#" className="w-full flex relative">
+        <a
+          href="https://himanshu-rawat-code-live.vercel.app/login/"
+          className="w-full flex relative"
+        >
           <div className="relative max-[475px]:mx-auto group hover:scale-105 transition-transform duration-200">
             <span className="text-white absolute group-hover:-top-15 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-300 top-5 left-1/2 -translate-x-1/2 flex bg-[#fc815c] px-4 py-2 w-fit rounded items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 ">
               Code-Live
@@ -135,7 +138,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
         <a href="#" className="w-full flex relative">
           <div className="relative max-[475px]:mx-auto group hover:scale-105 transition-transform duration-200 ml-auto">
             <span className="text-white absolute group-hover:-top-15 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-300 top-5 left-1/2 -translate-x-1/2 flex bg-[#663399] px-4 py-2 w-fit rounded items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 ">
-              Own-A-Land
+              NOT LIVE
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -166,7 +169,10 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
         <div className="hidden min-[820px]:block h-[1px] right-1/2 left-1/4 bg-[#1788ae] absolute top-1/2 "></div>
         {/* Circle at end of line */}
         <div className="hidden min-[820px]:block background-color-of-website w-4 h-4 rounded-full border-[3px] bg-inherit z-10 border-[#4bb1a3] absolute right-0 left-1/2 -translate-x-1/2 cursor-pointer hover:scale-120 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-200"></div>
-        <a href="#" className="w-full flex relative">
+        <a
+          href="https://himanshu-rawat12-portfolio.netlify.app/"
+          className="w-full flex relative"
+        >
           <div className="relative max-[475px]:mx-auto group hover:scale-105 transition-transform duration-200">
             <span className="text-white absolute group-hover:-top-15 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-300 top-5 left-1/2 -translate-x-1/2 flex bg-[#4bb1a3] px-4 py-2 w-fit rounded items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 ">
               Portfolio
@@ -275,7 +281,7 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
         <a href="#" className="w-full flex relative">
           <div className="relative max-[475px]:mx-auto group hover:scale-105 transition-transform duration-200 ml-auto">
             <span className="text-white absolute group-hover:-top-15 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-300 top-5 left-1/2 -translate-x-1/2 flex bg-[#2694d4] px-4 py-2 w-fit rounded items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 ">
-              Web Scraper
+              NOT LIVE
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -306,7 +312,10 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
         <div className="hidden min-[820px]:block h-[1px] right-1/2 left-1/4 bg-[#1788ae] absolute top-1/2 "></div>
         {/* Circle at end of line */}
         <div className="hidden min-[820px]:block background-color-of-website w-4 h-4 rounded-full border-[3px] bg-inherit z-10 border-[#fc815c] absolute right-0 left-1/2 -translate-x-1/2 cursor-pointer hover:scale-120 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-200"></div>
-        <a href="#" className="w-full flex relative">
+        <a
+          href="https://himanshu-rawat-pokedex.netlify.app/"
+          className="w-full flex relative"
+        >
           <div className="relative max-[475px]:mx-auto group hover:scale-105 transition-transform duration-200">
             <span className="text-white absolute group-hover:-top-15 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-300 top-5 left-1/2 -translate-x-1/2 flex bg-[#fc815c] px-4 py-2 w-fit rounded items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 ">
               Pokedex
@@ -390,7 +399,10 @@ const ProjectSection = ({ darkMode, setDarkMode, ref }) => {
         <div className="hidden min-[820px]:block h-[1px] right-1/4 left-1/2 bg-[#1788ae] absolute top-1/2 "></div>
         {/* Circle at end of line */}
         <div className="hidden min-[820px]:block background-color-of-website w-4 h-4 rounded-full border-[3px] bg-inherit z-10 border-[#7ae714] absolute right-0 left-1/2 -translate-x-1/2 cursor-pointer hover:scale-120 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-200"></div>
-        <a href="#" className="w-full flex relative">
+        <a
+          href="https://himanshu-rawat-weather.netlify.app/"
+          className="w-full flex relative"
+        >
           <div className="relative max-[475px]:mx-auto group hover:scale-105 transition-transform duration-200 ml-auto">
             <span className="text-white absolute group-hover:-top-15 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-300 top-5 left-1/2 -translate-x-1/2 flex bg-[#7ae714] px-4 py-2 w-fit rounded items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 ">
               Weather App

@@ -143,11 +143,11 @@ const Header = ({
               Himanshu Rawat
             </h1>
             <p className="pointer-events-auto w-max font-['Merriweather'] italic my-4 md:my-8">
-              MERN Stack Developer
+              Full-Stack Developer
             </p>
             <button
               onClick={handleModal}
-              className="pointer-events-auto z-20 relative bg-[#4595eb] py-[10px] px-7 rounded mb-8  font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] text-white dark:bg-gradient-to-l dark:from-[#f06449] dark:to-[#ef3636] group"
+              className="pointer-events-auto cursor-pointer z-20 relative bg-[#4595eb] py-[10px] px-7 rounded mb-8  font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] text-white dark:bg-gradient-to-l dark:from-[#f06449] dark:to-[#ef3636] group"
             >
               About Me
               {/* Right Arrow */}

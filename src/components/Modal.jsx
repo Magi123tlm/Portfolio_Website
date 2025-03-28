@@ -10,7 +10,7 @@ const Modal = ({ isModal, setIsModal }) => {
           About Me.
         </h3>
         <h4 className="font-mono italic tracking-widest mb-2 text-xs font-normal">
-          Interactive Frontend Developer
+          Interactive Full-Stack Developer
         </h4>
         <p className="my-2 text-[12px] sm:text-[15px]">
           I'm Himanshu Rawat, a 24-year-old Indian Freelance Full-Stack
@@ -55,6 +55,12 @@ const Modal = ({ isModal, setIsModal }) => {
           </li>
           <li className="border border-[#444] rounded-3xl px-2 py-1.5 mb-2 mr-2 text-xs">
             #github
+          </li>
+          <li className="border border-[#444] rounded-3xl px-2 py-1.5 mb-2 mr-2 text-xs">
+            #next.js
+          </li>
+          <li className="border border-[#444] rounded-3xl px-2 py-1.5 mb-2 mr-2 text-xs">
+            #typescript
           </li>
         </ul>
         <div className="flex items-center justify-evenly mt-3 gap-8 text-[12px] sm:text-[15px] max-[475px]:flex-wrap">
