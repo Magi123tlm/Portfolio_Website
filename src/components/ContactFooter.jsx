@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import contactSVG from "../assets/images/contact-me.svg";
 import name_logo_white from "../assets/images/Final_HR_Background_Less_Cropped.png";
 
 const ContactFooter = ({ darkMode, setDarkMode, ref }) => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  // console.log(name, email, message);
+
   return (
     <>
       <section ref={ref} className="max-w-screen-xl mx-auto px-4 pb-12 mt-15">
@@ -13,7 +19,8 @@ const ContactFooter = ({ darkMode, setDarkMode, ref }) => {
           <div className="w-full">
             <img src={contactSVG} alt="phone" />
           </div>
-          <form className="w-full" name="contactUS" netlify>
+          <form className="w-full" name="contact" method="POST">
+            <input type="hidden" name="form-name" value="contact" />
             <label
               htmlFor="name"
               className="block mb-2 text-sm font-medium dark:text-gray-900"
@@ -38,6 +45,8 @@ const ContactFooter = ({ darkMode, setDarkMode, ref }) => {
                 name="name"
                 className="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#1788ae] focus:border-[#1788ae] block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
                 placeholder="Enter your name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </div>
             <label
@@ -65,6 +74,8 @@ const ContactFooter = ({ darkMode, setDarkMode, ref }) => {
                 name="email"
                 className="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#1788ae] focus:border-[#1788ae] block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
                 placeholder="name@gmail.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <label
@@ -81,6 +92,8 @@ const ContactFooter = ({ darkMode, setDarkMode, ref }) => {
                 rows="8"
                 placeholder="Enter Your Message Here"
                 className="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#1788ae] focus:border-[#1788ae] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
             <button
